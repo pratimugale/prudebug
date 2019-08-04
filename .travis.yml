@@ -1,0 +1,19 @@
+language: c
+
+os:
+  - linux
+  
+before_install:
+
+  - sudo apt-get update
+  - wget -c https://releases.linaro.org/components/toolchain/binaries/7.4-2019.02/arm-linux-gnueabihf/gcc-linaro-7.4.1-2019.02-x86_64_arm-linux-gnueabihf.tar.xz
+  - tar xf gcc-linaro-7.4.1-2019.02-x86_64_arm-linux-gnueabihf.tar.xz
+  - export PATH=$PATH:$PWD/gcc-linaro-7.4.1-2019.02-x86_64_arm-linux-gnueabihf/bin/
+  - arm-linux-gnueabihf-gcc --version
+
+script:
+
+  # exporting the variable to be used by make utility  
+  - export ARCH=arm 
+  - export CROSS_COMPILE=arm-linux-gnueabihf-
+  - make
