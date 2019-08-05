@@ -12,9 +12,9 @@
 
 void printhelp()
 {
-	printf("Command help\n\n");
+	printf("Command help\n\n")
 	printf("    Commands are case insensitive\n");
-	printf("    Address and numeric values can be dec (ex 12), hex (ex 0xC), or octal (ex 014)\n");
+	printf("    Address and numeric values can be dec (ex 12), hex (ex 0xC), or octal (ex 014)\n")
 	printf("    Memory addresses can be wa=32-bit word address, ba=byte address.  Suffix of i=instruction or d=data memory\n");
 	printf("    Return without a command will rerun a previous d, dd, or di command while displaying the next block\n\n");
 
