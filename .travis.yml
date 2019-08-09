@@ -8,6 +8,7 @@ before_install:
   - export TI_PRU_CGT_DST="ti-pru-cgt"
   - export ROOT_DIR=${PWD}
   - export DL_DIR="download"
+  - mkdir download
   - cd ${ROOT_DIR}/${DL_DIR}/ && mkdir pru_cgt_installer
   - wget -O "${ROOT_DIR}/${DL_DIR}/pru_cgt_installer" "http://software-dl.ti.com/codegen/esd/cgt_public_sw/PRU/${TI_PRU_CGT_VERSION}/ti_cgt_pru_${TI_PRU_CGT_VERSION}_linux_installer_x86.bin"
 
