@@ -1,4 +1,5 @@
-PROJECT_LOGO = docs/pic.jpg
+PROJECT_LOGO = docs/pic.png
+USE_MDFILE_AS_MAINPAGE = README.md
 PROJECT_NAME           = "PRUSS-Bindings"
 PROJECT_NUMBER         = 1.0.0
 PROJECT_BRIEF          = "An API to control the BeagleBone PRUs "
@@ -6,4 +7,4 @@ MARKDOWN_SUPPORT       = YES
 INCLUDE = cpp-bindings/pruss.h
 INCLUDE = cpp-bindings/pruss.c
 FILE_PATTERNS = *.h *.cpp *.md
-USE_MDFILE_AS_MAINPAGE = README.md
+
