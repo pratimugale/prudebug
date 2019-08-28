@@ -1,10 +1,10 @@
 PROJECT_LOGO = docs/pic.png
+INCLUDE = cpp-bindings/pruss.h
+INCLUDE = cpp-bindings/pruss.c
 USE_MDFILE_AS_MAINPAGE = README.md
 PROJECT_NAME           = "PRUSS-Bindings"
 PROJECT_NUMBER         = v1.0.0
 PROJECT_BRIEF          = "An API to control the BeagleBone PRUs using the RemoteProc and RPMsg framework."
 MARKDOWN_SUPPORT       = YES
-INCLUDE = cpp-bindings/pruss.h
-INCLUDE = cpp-bindings/pruss.c
 #FILE_PATTERNS = *.h *.cpp *.md
 
