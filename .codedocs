@@ -3,3 +3,4 @@ INCLUDE = cpp-bindings/pruss.h
 INCLUDE = cpp-bindings/pruss.c
 PROJECT_LOGO = docs/pic.jpg
 FILE_PATTERNS = *.h *.cpp *.md
+USE_MDFILE_AS_MAINPAGE = README.md
