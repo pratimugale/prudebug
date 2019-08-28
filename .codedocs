@@ -6,5 +6,5 @@ PROJECT_BRIEF          = "An API to control the BeagleBone PRUs "
 MARKDOWN_SUPPORT       = YES
 INCLUDE = cpp-bindings/pruss.h
 INCLUDE = cpp-bindings/pruss.c
-FILE_PATTERNS = *.h *.cpp *.md
+#FILE_PATTERNS = *.h *.cpp *.md
 
