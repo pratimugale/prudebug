@@ -1,3 +1,3 @@
 INCLUDE = uio.h
-PROJECT_LOGO = docs/doxygen/Thumbnail-symbol-whitebg-small.jpg
+PROJECT_LOGO = docs/pic.jpg
 FILE_PATTERNS = *.h *.cpp *.md
