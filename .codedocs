@@ -7,4 +7,4 @@ INCLUDE = uio.h
 INCLUDE = cpp-bindings/pruss.h
 INCLUDE = cpp-bindings/pruss.c
 FILE_PATTERNS = *.h *.cpp *.md
-USE
+USE_MDFILE_AS_MAINPAGE = README.md
