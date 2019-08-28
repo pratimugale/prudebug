@@ -1,5 +1,5 @@
 INCLUDE = uio.h
 INCLUDE = cpp-bindings/pruss.h
 INCLUDE = cpp-bindings/pruss.c
-PROJECT_LOGO = docs/pic.jpg
+PROJECT_LOGO = docs/pic.png
 FILE_PATTERNS = *.h *.cpp *.md
